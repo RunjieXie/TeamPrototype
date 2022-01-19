@@ -1,0 +1,13 @@
+#webbanner {
+    width: 100%;
+    height: 45%;
+}
+
+#websitebottom {
+    width: 100%;
+}
+
+.container {
+    display:flex;
+    justify-content:center;
+}

@@ -1,0 +1,28 @@
+#webbanner {
+    width: 100%;
+    height: 45%;
+}
+
+#websitebottom {
+    width: 100%;
+}
+
+.top_part {
+    text-align:center;
+}
+
+.requirements {
+    text-align:center;
+}
+
+.area_to_distribute_evenly {
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+}
+
+.object_to_distribute_evenly {
+    width:30%;
+    float:left;
+    margin:20px;
+}

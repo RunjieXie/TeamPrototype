@@ -3,5 +3,5 @@ document.getElementById("go_to_submission").onclick = function () {
 };
 
 document.getElementById("go_to_voting").onclick = function () {
-    location.href = "Voting.html";
+    location.href = "Login.html";
 };

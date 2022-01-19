@@ -1,0 +1,83 @@
+<head>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="Voting.css">
+</head>
+
+<body onload="loadVotes()">
+
+    <img id="webbanner"src="Banner.png" alt="Banner for design contest">
+    <br>
+
+    <div class="top_part"> 
+        <button id="homepage" button class="w3-button w3-gray"> < Back to homepage </button>
+        <h1> <b>Vote for your favorite! </b></h1>
+        <br>
+    </div>
+
+    <div class="w3-container">
+        
+        <div class = "area_to_distribute_evenly">
+        
+            <div class = "object_to_distribute_evenly">
+                <img id="picture_contest1" src="Contest1blau.png" class="w3-border w3-padding" alt="Design idea 1"
+                    height="300"
+                    weight="200">
+                <br>
+                <button id="button_contest1" button class="w3-button w3-blue">vote</button>
+                <text id="vote_contest1"> x votes received </text>
+            </div>
+            <div class = "object_to_distribute_evenly">
+                <img id="picture_contest2" src="Contest2.png" class="w3-border w3-padding" alt="Design idea 2"
+                    height="300"
+                    weight="200">
+                <br>
+                <button id="button_contest2" button class="w3-button w3-blue">vote</button>
+                <text id="vote_contest2"> x votes received </text>
+            </div>
+            <div class = "object_to_distribute_evenly">
+                <img id="picture_contest3" src="Contest3.png" class="w3-border w3-padding" alt="Design idea 3"
+                    height="300"
+                    weight="200">
+                <br>
+                <button id="button_contest3" button class="w3-button w3-blue">vote</button>
+                <text id="vote_contest3"> x votes received </text>
+            </div>
+            <div class = "object_to_distribute_evenly">
+                <img id="picture_contest4" src="Contest4pink.png" class="w3-border w3-padding" alt="Design idea 4"
+                    height="300"
+                    weight="200">
+                <br>
+                <button id="button_contest4" button class="w3-button w3-blue">vote</button>
+                <text id="vote_contest4"> x votes received </text>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class = "contact_form">
+        <form id="form">
+            <p> <b> Notification setting: </b></p>
+            <input type="radio" id="no", name="notification", value="no">
+            <label for="no"> I <b>DON'T</b> want to be notified, when my favorite is chosen as the winning design </label><br>
+            <input type="radio" id="yes", name="notification", value="yes">
+            <label for="yes"> I want to be notified, when my favorite is chosen as the winning design </label><br><br>
+            <label for="email"> <b> E-mail </b> </label>
+            <input type="email" id="email" name="email"> <br><br>
+            <input type="checkbox" id="privacy_agreement", name="privacy_agreement", value="yes">
+            <label for="privacy_agreement"> <text style="color:red;">*</text> I agree that my personal data is processed electronically by FAU and UniMerch </label><br><br>
+
+            <button id="save_Bottom" button class="w3-button w3-blue"> Save </button>
+
+        </form>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    <img id="websitebottom"src="WebsiteBottom.png" alt="Additional information of the website">
+
+</body>
+
+<script src="Voting.js"></script>
